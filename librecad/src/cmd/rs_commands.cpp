@@ -37,7 +37,8 @@
 namespace {
 struct LC_CommandItem {
 	std::vector<std::pair<QString, QString>> const fullCmdList;
-	std::vector<std::pair<QString, QString>> const shortCmdList;
+
+    std::vector<std::pair<QString, QString>> const shortCmdList;
 	RS2::ActionType actionType;
 };
 
